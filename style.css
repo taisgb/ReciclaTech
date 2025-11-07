@@ -20,16 +20,18 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  border-bottom: solid 1px #B4AEAE;
   height: 10vh;
 }
 header .caixaLogo {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 15%;
+  width: 10%;
 }
-header .caixaLogo h1 {
-  font-size: 2.5rem;
+header .caixaLogo h2 {
+  font-size: 2rem;
+  color: #1F2937;
 }
 header nav {
   display: flex;
@@ -55,7 +57,7 @@ header nav a {
   cursor: pointer;
 }
 
-.secundary-btn {
+.secondary-btn {
   background-color: #fff;
   color: #2563EB;
   border: 1px solid #2563EB;
@@ -72,49 +74,87 @@ header nav a {
   height: 80vh;
 }
 
+.heroText {
+  align-items: center;
+  width: 60vw;
+}
+.heroText h2 {
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+.heroText p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #4B5563;
+}
+.heroText button {
+  font-size: 1rem;
+  align-items: center;
+  font-weight: 400;
+  margin-right: 1rem;
+}
+.heroText button img {
+  margin-left: 0.4rem;
+  align-items: center;
+}
+
+.cta {
+  background-color: #F3F5F8;
+}
+
 .produtos {
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 80vh;
+  background-color: #F3F5F8;
 }
-
-article {
-  border: solid 2px #334daa;
+.produtos article {
+  border: solid 2px #16A34A;
+  background-color: #fff;
   height: 60vh;
   width: 18%;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
-  border-radius: 15px;
+  border-radius: 8px;
   margin-top: 0;
   padding-top: 0;
   box-shadow: #ccc;
 }
-article img {
+.produtos article img {
   width: 100%;
   height: 60%;
-  border-radius: 14px 14px 0 0;
+  border-radius: 8.11px 8.11px 0 0;
 }
-article h3 {
-  font-weight: 700;
-  color: #1d40be;
+.produtos article h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #09090B;
 }
-article p {
-  color: #002ed4;
-  font-weight: bolder;
+.produtos article p {
+  color: #4B5563;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
   width: 90%;
-  text-align: justify;
+  text-align: center;
 }
-article button {
+.produtos article button {
   padding: 10px;
-  border-radius: 20px;
-  border: #334daa 1px solid;
-  background-color: #1d40be;
+  border-radius: 15px;
+  border: #21C05C 1px solid;
+  background-color: #16A34A;
   color: #fff;
   margin-bottom: 1rem;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
 }
-article button:hover {
-  background-color: #002ed4;
+.produtos article button:hover {
+  background-color: #2563EB;
+  color: #F3F5F8;
 }/*# sourceMappingURL=style.css.map */
