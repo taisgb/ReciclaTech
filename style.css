@@ -454,35 +454,4 @@ footer .inferior p {
   font-size: 1rem;
   font-weight: 400;
   color: #9CA3AF;
-}
-
-@media (max-width: 768px) {
-  header {
-    flex-direction: column;
-    height: 15vh;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
-  }
-  header .caixaLogo {
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-  }
-  header nav {
-    width: 90%;
-  }
-  header nav a {
-    font-size: 0.86rem;
-  }
-}
-@media screen and (max-width: 768px) {
-  .produtos {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .produtos article {
-    width: 60%;
-  }
 }/*# sourceMappingURL=style.css.map */

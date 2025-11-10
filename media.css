@@ -1,0 +1,234 @@
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  header .caixaLogo {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  header .caixaLogo h2 {
+    font-size: 1.5rem;
+  }
+  header nav {
+    width: 90%;
+  }
+  header nav a {
+    font-size: 0.76rem;
+  }
+  .hero {
+    flex-direction: column;
+    height: 100%;
+  }
+  .heroText {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .heroText h2 {
+    font-size: 2rem;
+  }
+  .heroText p {
+    font-size: 1rem;
+    text-align: justify;
+  }
+  .cta {
+    width: 100%;
+  }
+  .cta h4 {
+    font-size: 1.5rem;
+  }
+  .cta p {
+    font-size: 0.7rem;
+  }
+  .funciona {
+    height: 100%;
+    padding: 10px;
+    margin: 10px;
+  }
+  .funciona h2 {
+    font-size: 1.5rem;
+  }
+  .funciona h3 {
+    font-size: 1rem;
+  }
+  .funciona .cards-funciona {
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 0.2rem;
+  }
+  .funciona .cards-funciona .tituloFunciona {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .funciona article {
+    width: 100%;
+    height: 60%;
+  }
+  .funciona article p {
+    font-size: 0.8rem;
+    text-align: justify;
+    margin-bottom: 1rem;
+  }
+  .funciona article ul {
+    width: 90%;
+    margin: 10px;
+  }
+  .funciona article ul li {
+    font-size: 0.8rem;
+  }
+  .produtos {
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 8px;
+    padding: 10px;
+  }
+  .produtos h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .produtos h3 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .produtos .cardsProdutos {
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-bottom: 0.3rem;
+    width: 80%;
+  }
+  .produtos article {
+    width: 100%;
+    height: 60%;
+  }
+  .produtos article img {
+    margin-bottom: 0.4rem;
+  }
+  .produtos article h3 {
+    font-size: 0.8rem;
+  }
+  .produtos article p {
+    font-size: 0.8rem;
+    text-align: justify;
+    margin-bottom: 1rem;
+  }
+  .produtos article button {
+    padding: 5px;
+    font-size: 0.7rem;
+    border-radius: 10px;
+  }
+  .usuarios {
+    height: 100%;
+    padding: 10px;
+    margin: 10px;
+  }
+  .usuarios h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .usuarios h3 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .usuarios .depoimentos {
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 1rem;
+  }
+  .usuarios .depoimentos article {
+    width: 60%;
+    height: 70%;
+    gap: 1rem;
+  }
+  .usuarios .depoimentos article p {
+    font-size: 0.8rem;
+    text-align: justify;
+    margin-bottom: 1rem;
+  }
+  .cta2 {
+    height: 100%;
+    padding: 10px;
+  }
+  .cta2 h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  .cta2 h3 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    width: 100%;
+  }
+  .cta2 .btn-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .cta2 .btn-box .primary-btn {
+    height: 34px;
+    width: 60%;
+    font-size: 0.5rem;
+    padding: 5px 5px;
+  }
+  .cta2 .btn-box .mais-btn {
+    height: 34px;
+    width: 40%;
+    font-size: 0.5rem;
+    padding: 5px 5px;
+  }
+  footer {
+    height: 100%;
+  }
+  footer .superior {
+    margin-top: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  footer .superior .logo {
+    justify-content: center;
+    align-items: center;
+  }
+  footer .superior p {
+    font-size: 0.8rem;
+    text-align: center;
+    width: 100%;
+  }
+  footer .superior .redes {
+    justify-content: center;
+    align-items: center;
+  }
+  footer .superior .container-redes {
+    margin-top: 1rem;
+  }
+  footer .superior .container-redes h4 {
+    text-align: center;
+    font-size: 1rem;
+  }
+  footer .inferior p {
+    font-size: 0.8rem;
+    text-align: center;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .produtos {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .produtos article {
+    width: 60%;
+  }
+}/*# sourceMappingURL=media.css.map */
