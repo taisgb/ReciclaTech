@@ -209,16 +209,33 @@ header nav a {
 
 .produtos {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  height: 80vh;
+  height: 90vh;
   background-color: #F3F5F8;
+}
+.produtos h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.produtos h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #4B5563;
+}
+.produtos .cardsProdutos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 .produtos article {
   border: solid 2px #16A34A;
   background-color: #fff;
   height: 60vh;
-  width: 18%;
+  width: 20%;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -227,6 +244,7 @@ header nav a {
   margin-top: 0;
   padding-top: 0;
   box-shadow: #ccc;
+  cursor: pointer;
 }
 .produtos article img {
   width: 100%;
@@ -262,6 +280,180 @@ header nav a {
 .produtos article button:hover {
   background-color: #2563EB;
   color: #F3F5F8;
+}
+
+.usuarios {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 70vh;
+}
+.usuarios h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.usuarios h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #4B5563;
+  margin-bottom: 2rem;
+}
+.usuarios .depoimentos {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.usuarios .depoimentos article {
+  width: 300px;
+  height: 300px;
+  border: #16A34A 2px solid;
+  border-radius: 8px;
+  padding: 16px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+  box-shadow: #ccc;
+  text-align: justify;
+}
+.usuarios .depoimentos article .usuario h5 {
+  font-size: 0.9rem;
+  color: #09090B;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+.usuarios .depoimentos article .usuario small {
+  font-size: 0.89rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: #6B7280;
+}
+
+.cta2 {
+  background-color: #F3F5F8;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cta2 h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #000000;
+}
+.cta2 h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #000000;
+  margin-bottom: 2rem;
+  width: 30%;
+  text-align: center;
+}
+.cta2 .btn-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.cta2 .btn-box .primary-btn {
+  height: 44px;
+  width: 189px;
+  border: 1px #16A34A solid;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+.cta2 .btn-box .mais-btn {
+  width: 157px;
+  border: #16A34A 1px solid;
+  color: #16A34A;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 44px;
+}
+
+footer {
+  background-color: #1F2937;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer .superior {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+footer .superior .logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+footer .superior .logo h4 {
+  align-items: center;
+}
+footer .superior .logo img {
+  align-items: center;
+  margin-right: 3px;
+}
+footer .superior h4 {
+  color: #FFFFFF;
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+footer .superior p {
+  color: #9CA3AF;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  width: 60%;
+}
+footer .superior .redes {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+footer .inferior {
+  border-top: 1px solid #4B5563;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  padding: 16px;
+}
+footer .inferior p {
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #9CA3AF;
 }
 
 @media (max-width: 768px) {
