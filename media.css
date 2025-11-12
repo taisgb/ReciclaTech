@@ -23,6 +23,9 @@
   .hero {
     flex-direction: column;
     height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
   }
   .heroText {
     width: 95%;
@@ -37,6 +40,7 @@
   .heroText p {
     font-size: 1rem;
     text-align: justify;
+    margin-bottom: 2rem;
   }
   .cta {
     width: 100%;
